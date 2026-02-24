@@ -1,0 +1,210 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: spotify;
+    background-color: #412835;
+}
+
+
+header {
+    height: 20%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #ea75b0;
+}
+
+#headstamp {
+    display: flex;
+}
+
+.iconim {
+    width: 7em;
+    display: flex;
+    align-items: center;
+}
+
+.textNextToIcon {
+    line-height: 0.2em;
+    font-size: 24px;
+    font-family: Arial;
+    margin-left: 14px;
+    font-family: berlin;
+    color: #BD94AA
+}
+
+.visitCountP {
+}
+
+.visitCountP, button, #submitBut {
+    border-radius: 30px;
+    margin: 30px;
+    font-size: 30px;
+    background-color: #7D4C65;
+    border: 5px #D7A6BF solid;
+    color: #D7A6BF;
+    font-family: berlin;
+    padding: 5px;
+}
+
+    button:hover, #submitBut:hover {
+        border-radius: 25px;
+        background-color: #6c2e4e;
+        border: 5px #ED80BA solid;
+        color: #ED80BA;
+        transition: all 0.2s ease-out;
+    }
+
+    button:active, #submitBut:active {
+        border-radius: 25px;
+        background-color: #D7A6BF;
+        border: 5px #7D4C65 solid;
+        color: #7D4C65;
+        transition: all 0.2s ease-out;
+    }
+
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.navBut {
+}
+
+.themeChanger {
+}
+
+main {
+    background-color: #864f6d;
+    text-align: center;
+    width: 96%;
+    margin: 0 auto;
+    padding: 1%;
+    margin-top: 1%;
+    color: #D3B8C6;
+}
+
+section {
+    margin: 0 auto;
+    background-color: #613B55;
+    width: 50%;
+    color: #CD9BBD;
+    padding: 20px;
+}
+
+h1 {
+    font-family: berlin;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: berlin;
+}
+
+#AbtMe {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abtMeFacts {
+    text-align: left;
+    width: 50%;
+}
+
+.abtMePhoto {
+    width: 25%;
+}
+
+    .abtMePhoto img {
+        width: 100%;
+    }
+
+
+#Skills {
+    text-align: left;
+}
+
+ol {
+    font-size: 20px
+}
+
+li {
+}
+
+footer {
+    background-color: #864f6d;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1%;
+    font-size: 20px;
+    width: 99.9%;
+    color: #D3B8C6;
+}
+
+#FootLogo {
+    padding: 1%;
+    flex-grow: 1;
+}
+
+    #FootLogo div {
+        display: flex;
+        font-family: berlin;
+    }
+
+        #FootLogo div img {
+            height: 7em;
+        }
+
+        #FootLogo div p {
+            font-size: 2em;
+            margin-left: 10px;
+        }
+
+#FootLinks {
+    display: flex;
+    flex-grow: 0;
+    justify-content: flex-end;
+}
+
+.LinkTree {
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    align-self: center;
+}
+
+    .LinkTree div {
+        width: max-content;
+        line-height: 1.5;
+    }
+
+        .LinkTree div b {
+        }
+
+a {
+    color: #ECB2D1;
+}
+
+a:hover {
+    color: #ED80BA;
+}
+
+    a:active {
+        color: #7D4C65;
+    }
+
+@font-face {
+    font-family: berlin;
+    src: url(../../fonts/BerlinSans.ttf);
+}
+
+@font-face {
+    font-family: spotify;
+    src: url(../../fonts/Spotify.otf);
+}
