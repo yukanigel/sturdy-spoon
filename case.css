@@ -1,0 +1,207 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: spotify;
+}
+
+header {
+    height: 20%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #ff7f90;
+}
+
+
+#headstamp {
+    display: flex;
+}
+
+.iconim {
+    width: 7em;
+    display: flex;
+    align-items: center;
+}
+
+.textNextToIcon {
+    line-height: 0.2em;
+    font-size: 24px;
+    font-family: Arial;
+    margin-left: 14px;
+    font-family: berlin;
+}
+
+.visitCountP {
+}
+
+.visitCountP, button, #submitBut {
+    border-radius: 30px;
+    margin: 30px;
+    font-size: 30px;
+    background-color: #FC5D78;
+    border: 5px #FC5D78 solid;
+    color: #A2041F;
+    font-family: berlin;
+    padding: 5px;
+}
+
+    button:hover, #submitBut:hover {
+        border-radius: 25px;
+        background-color: #ff71ae;
+        border: 5px #ee3f8b solid;
+        color: #be1e63;
+        transition: all 0.2s ease-out;
+    }
+
+    button:active, #submitBut:active {
+        border-radius: 25px;
+        background-color: deeppink;
+        border: 5px #ee3f8b solid;
+        color: #be1e63;
+        transition: all 0.2s ease-out;
+    }
+
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.navBut {
+}
+
+.themeChanger {
+}
+
+main {
+    background-color: #FFC6CF;
+    text-align: center;
+    width: 96%;
+    margin: 0 auto;
+    padding: 1%;
+    margin-top: 1%;
+    color: #D81435;
+}
+
+section {
+    color: #D81435;
+    margin: 0 auto;
+    background-color: lightpink;
+    padding: 20px;
+    width: 50%;
+}
+
+h1 {
+    font-family: berlin;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: berlin;
+}
+
+#AbtMe {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abtMeFacts{
+    text-align:left;
+    width: 50%;
+}
+
+.abtMePhoto{
+    width:25%;
+}
+
+.abtMePhoto img{
+    width: 100%;
+}
+
+#Skills{
+    text-align:left;
+}
+
+ol{
+    font-size:20px
+}
+
+li {
+}
+
+footer {
+    background-color: #ff9ba7;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1%;
+    color: #bf112e;
+    font-size: 20px;
+    width: 99.9%;
+}
+
+#FootLogo {
+    padding: 1%;
+    flex-grow: 1;
+}
+
+    #FootLogo div {
+        display: flex;
+        font-family: berlin;
+    }
+
+        #FootLogo div img {
+            height: 7em;
+        }
+
+        #FootLogo div p {
+            font-size: 2em;
+            margin-left: 10px;
+        }
+
+#FootLinks {
+    display: flex;
+    flex-grow: 0;
+    justify-content: flex-end;
+}
+
+.LinkTree {
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    align-self: center;
+}
+
+    .LinkTree div {
+        width: max-content;
+        line-height: 1.5;
+    }
+
+        .LinkTree div b {
+        }
+
+a {
+    color: #A2041F;
+}
+
+    a:hover {
+        color: #be1e63;
+    }
+
+    a:active {
+        color: #be1e63;
+    }
+
+@font-face {
+    font-family: berlin;
+    src: url(../../fonts/BerlinSans.ttf);
+}
+
+@font-face {
+    font-family: spotify;
+    src: url(../../fonts/Spotify.otf);
+}
