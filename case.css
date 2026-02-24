@@ -198,10 +198,11 @@ a {
 
 @font-face {
     font-family: berlin;
-    src: url(../../fonts/BerlinSans.ttf);
+    src: url(BerlinSans.ttf);
 }
 
 @font-face {
     font-family: spotify;
-    src: url(../../fonts/Spotify.otf);
+    src: url(Spotify.otf);
 }
+
